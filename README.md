@@ -1,5 +1,8 @@
 # 基于 Spring Cloud 的微服务架构
 
+@作者：Sheldon
+地址：https://github.com/zhangxd1989
+
 本项目是一个基于 Spring Boot、Spring Cloud、Spring Oauth2 和 Spring Cloud Netflix 等框架构建的微服务项目。
 
 # 技术栈
@@ -30,9 +33,9 @@
 * svcb-service - 业务服务B
 
 ## 体系架构
-![architecture](/screenshots/architecture.jpg)
+![architecture](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/architecture.jpg)
 ## 应用组件
-![components](/screenshots/components.jpg)
+![components](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/components.jpg)
 
 # 启动项目
 
@@ -53,45 +56,45 @@
 ## 注册中心
 访问 http://localhost:8761/ 默认账号 user，密码 password
 
-![registry](/screenshots/registry.jpg)
+![registry](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/registry.jpg)
 ## 监控
 访问 http://localhost:8040/ 默认账号 admin，密码 admin
 ### 控制面板
-![monitor](/screenshots/monitor1.jpg)
+![monitor](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/monitor1.jpg)
 ### 应用注册历史
-![monitor](/screenshots/monitor2.jpg)
+![monitor](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/monitor2.jpg)
 ### Turbine Hystrix面板
-![monitor](/screenshots/monitor3.jpg)
+![monitor](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/monitor3.jpg)
 ### 应用信息、健康状况、垃圾回收等详情
-![monitor](/screenshots/monitor4.jpg)
+![monitor](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/monitor4.jpg)
 ### 计数器
-![monitor](/screenshots/monitor5.jpg)
+![monitor](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/monitor5.jpg)
 ### 查看和修改环境变量
-![monitor](/screenshots/monitor6.jpg)
+![monitor](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/monitor6.jpg)
 ### 管理 Logback 日志级别
-![monitor](/screenshots/monitor7.jpg)
+![monitor](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/monitor7.jpg)
 ### 查看并使用 JMX
-![monitor](/screenshots/monitor8.jpg)
+![monitor](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/monitor8.jpg)
 ### 查看线程
-![monitor](/screenshots/monitor9.jpg)
+![monitor](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/monitor9.jpg)
 ### 认证历史
-![monitor](/screenshots/monitor10.jpg)
+![monitor](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/monitor10.jpg)
 ### 查看 Http 请求轨迹
-![monitor](/screenshots/monitor11.jpg)
+![monitor](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/monitor11.jpg)
 ### Hystrix 面板
-![monitor](/screenshots/monitor12.jpg)
+![monitor](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/monitor12.jpg)
 ## 链路跟踪
 访问 http://localhost:9411/ 默认账号 admin，密码 admin
 ### 控制面板
-![zipkin](/screenshots/zipkin1.jpg)
+![zipkin](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/zipkin1.jpg)
 ### 链路跟踪明细
-![zipkin](/screenshots/zipkin2.jpg)
+![zipkin](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/zipkin2.jpg)
 ### 服务依赖关系
-![zipkin](/screenshots/zipkin3.jpg)
+![zipkin](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/zipkin3.jpg)
 ## RabbitMQ 监控
 Docker 启动访问 http://localhost:15673/ 默认账号 guest，密码 guest（本地 rabbit 管理系统默认端口15672）
 
-![rabbit](/screenshots/rabbit.jpg)
+![rabbit](https://raw.githubusercontent.com/souyunku/spring-boot-cloud/master/screenshots/rabbit.jpg)
 # 接口测试
 1. 获取 Token
 ```
@@ -142,3 +145,16 @@ curl -X POST -vu client:secret http://localhost:8060/uaa/oauth/token -H "Accept:
 ```
 curl -X POST -vu user:password http://localhost:8888/bus/refresh
 ```
+**源码下载**
+
+[https://github.com/souyunku/spring-boot-cloud.git](https://github.com/souyunku/spring-boot-cloud.git)
+
+# Contact
+
+ - 作者：鹏磊  
+ - 出处：[http://www.ymq.io](http://www.ymq.io)  
+ - Email：[admin@souyunku.com](admin@souyunku.com)
+ - 版权归作者所有，转载请注明出处
+ - Wechat：关注公众号，搜云库，专注于开发技术的研究与知识分享
+ 
+![关注公众号-搜云库](http://www.ymq.io/images/souyunku.png "搜云库")
